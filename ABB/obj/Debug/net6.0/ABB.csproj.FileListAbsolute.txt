@@ -1,0 +1,15 @@
+C:\Users\SrConejoUwU\Documents\proyectosC#\ABB\bin\Debug\net6.0\ABB.exe
+C:\Users\SrConejoUwU\Documents\proyectosC#\ABB\bin\Debug\net6.0\ABB.deps.json
+C:\Users\SrConejoUwU\Documents\proyectosC#\ABB\bin\Debug\net6.0\ABB.runtimeconfig.json
+C:\Users\SrConejoUwU\Documents\proyectosC#\ABB\bin\Debug\net6.0\ABB.dll
+C:\Users\SrConejoUwU\Documents\proyectosC#\ABB\bin\Debug\net6.0\ABB.pdb
+C:\Users\SrConejoUwU\Documents\proyectosC#\ABB\obj\Debug\net6.0\ABB.csproj.AssemblyReference.cache
+C:\Users\SrConejoUwU\Documents\proyectosC#\ABB\obj\Debug\net6.0\ABB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SrConejoUwU\Documents\proyectosC#\ABB\obj\Debug\net6.0\ABB.AssemblyInfoInputs.cache
+C:\Users\SrConejoUwU\Documents\proyectosC#\ABB\obj\Debug\net6.0\ABB.AssemblyInfo.cs
+C:\Users\SrConejoUwU\Documents\proyectosC#\ABB\obj\Debug\net6.0\ABB.csproj.CoreCompileInputs.cache
+C:\Users\SrConejoUwU\Documents\proyectosC#\ABB\obj\Debug\net6.0\ABB.dll
+C:\Users\SrConejoUwU\Documents\proyectosC#\ABB\obj\Debug\net6.0\refint\ABB.dll
+C:\Users\SrConejoUwU\Documents\proyectosC#\ABB\obj\Debug\net6.0\ABB.pdb
+C:\Users\SrConejoUwU\Documents\proyectosC#\ABB\obj\Debug\net6.0\ABB.genruntimeconfig.cache
+C:\Users\SrConejoUwU\Documents\proyectosC#\ABB\obj\Debug\net6.0\ref\ABB.dll
