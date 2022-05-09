@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SrConejoUwU\\Documents\\proyectosC#\\ABB\\ABB.csproj",
+      "projectUniqueName": "C:\\Users\\SrConejoUwU\\Documents\\proyectosC#\\C#-Repos\\Arbol-Binario-Generico\\ABB\\ABB.csproj",
       "projectName": "ABB",
-      "projectPath": "C:\\Users\\SrConejoUwU\\Documents\\proyectosC#\\ABB\\ABB.csproj",
+      "projectPath": "C:\\Users\\SrConejoUwU\\Documents\\proyectosC#\\C#-Repos\\Arbol-Binario-Generico\\ABB\\ABB.csproj",
       "packagesPath": "C:\\Users\\SrConejoUwU\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SrConejoUwU\\Documents\\proyectosC#\\ABB\\obj\\",
+      "outputPath": "C:\\Users\\SrConejoUwU\\Documents\\proyectosC#\\C#-Repos\\Arbol-Binario-Generico\\ABB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SrConejoUwU\\AppData\\Roaming\\NuGet\\NuGet.Config",
