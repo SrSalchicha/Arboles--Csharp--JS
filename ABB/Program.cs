@@ -3,17 +3,51 @@ using ABB.ArbolGenerico;
 using ABB;
 
 Console.WriteLine("ARBOL BINARIO GENERICO EN C#");
-
 Arbol<int> arbolito = new Arbol<int>();
 
-arbolito.Anadir(1);
-arbolito.Anadir(3);
-arbolito.Anadir(0);
-arbolito.Anadir(4);
-arbolito.Anadir(88);
 
-Console.WriteLine("Recorrido en orden uwu");
+int? bucle;
+do{
+    Console.WriteLine("Ingrese un dato de tipo entero");
+    arbolito.Anadir(Convert.ToInt32(Console.ReadLine()));
+    Console.WriteLine("Desea seguir añadiendo mas datos?" +
+    Environment.NewLine + "1 = si, 2 = no");
+    bucle = Convert.ToInt32(Console.ReadLine());
+    if(bucle == 2){
+        break;
+    }
+}while(true);
+
+int? Select = 4;
+
+do
+{
+
+    Console.WriteLine("Seleccione el tipo de salida"
+    + Environment.NewLine + "1 = En orden, 2 = Pos orden, 3 = Pre orden"
+    );
+
+   Select = Convert.ToInt32(Console.ReadLine());
+
+    switch (Select)
+    {
+        case 1:
+            arbolito.InOrden(arbolito.Raiz);
+            break;
+        case 2:
+            arbolito.PostOrden(arbolito.Raiz);
+            break;
+        case 3:
+            arbolito.PreOrden(arbolito.Raiz);
+            break;
+        default:
+            Console.WriteLine("Dato incorrecto");
+        break;
+    }
+}while (Select == 4);
 arbolito.InOrden(arbolito.Raiz);
+/*
+
 
 Console.WriteLine(Environment.NewLine + "Arbol de espadas" + Environment.NewLine);
 
@@ -32,3 +66,4 @@ ArbolEspadas.InOrden(ArbolEspadas.Raiz);
 
 
 Console.WriteLine();
+*/

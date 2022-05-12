@@ -37,7 +37,7 @@ namespace ABB
             return Damage.CompareTo(e.Damage);
         }
 
-        public override string? ToString()
+        public override string ToString()
         {
             return Environment.NewLine + " Nombre: " + Name + Environment.NewLine
                 + " Descripcion:  " + Description + Environment.NewLine 

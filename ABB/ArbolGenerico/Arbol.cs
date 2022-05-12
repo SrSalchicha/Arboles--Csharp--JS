@@ -2,18 +2,47 @@
 namespace ABB.ArbolGenerico;
 
 public class Arbol<T> where T : IComparable<T>{
-    //Creacion del nodo raiz
+    //Creacion del nodo raiz 
     public Nodo<T>? Raiz;
-
+    //Creacion del fake nodo en caso de que el tipo de dato sea de tipo entero y el primer dato ingresado sea 0
+    private Nodo<T>? FakeNodo;
     // Añadir nuevo nodo
     public void Anadir(T dato){
-
         //Crear nuevo nodo
         Nodo<T> nuevoNodo = new Nodo<T>();
         nuevoNodo.Data = dato;
 
         // Evaluar el nuevo nodo para colocarlo en el arbol binario si la raiz esta vacia se añade a la raiz
-        if (Raiz == null) Raiz = nuevoNodo;
+        if (Raiz == null){
+            //verificar si el tipo de dato ingresado es entero para usar fake nodo
+            if (typeof(T) == typeof(int))
+            {
+                //verificar que el tipo de dato ingresado no sea 0
+                if (dato.CompareTo(((T) Convert.ChangeType(0, typeof(T)))) == 0)
+                {
+                    FakeNodo = nuevoNodo;
+                }
+                else //En caso de que no sea 0 se ingresa en la raiz
+                {
+                    Raiz = nuevoNodo;
+                }
+            }
+            //Evaluar el segundo nodo ingresado en caso de que se haya ingresado el fake nodo
+            else{
+                Raiz = nuevoNodo;
+                if (FakeNodo != null)
+                {
+                    if (FakeNodo.Data.CompareTo(Raiz.Data) > 0)
+                    {
+                        Raiz.HijoDerecho = nuevoNodo;
+                    }
+                    else
+                    {
+                        Raiz.HijoIzquierdo = nuevoNodo;
+                    }
+                }
+            }
+        }
         else{
             Nodo<T>? anterior = null, recorre = Raiz;
             //Si el siguiente nodo no esta vacio continua recorriendo el arbol
